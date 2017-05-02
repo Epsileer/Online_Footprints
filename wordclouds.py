@@ -1,3 +1,6 @@
+# Generates a Wordcloud
+# Author: Pranshu Gupta
+
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 
