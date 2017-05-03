@@ -6,10 +6,10 @@ import os, json
 
 words = open("output/words.txt", "w")
 
-data_files = os.listdir("data/")
+data_files = os.listdir("data/search/")
 
 for file_name in data_files:
-    with open("data/" + file_name) as data_file:    
+    with open("data/search/" + file_name) as data_file:    
         data = json.load(data_file)
         for event in data["event"]:
             words.write(event["query"]["query_text"] + "\n")
