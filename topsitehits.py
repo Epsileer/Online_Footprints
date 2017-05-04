@@ -54,5 +54,5 @@ fig = plt.figure()
 fig.set_size_inches(16,9)
 plt.plot(x, y)
 plt.title(topsite.split(", ")[0])
-fig.savefig("images/site" + str(t) + ".png")
+fig.savefig("images/topsites/site" + str(t) + ".png")
 
