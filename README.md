@@ -5,7 +5,7 @@ Pranshu Gupta
 The way we use search engines can tell many things about us. This is a set of python programs that we can use to analyze our own search data and draw some useful insights from the same.
 
 ## Read the Article here
-http://pranshu258.github.io/blogs/digitalfootprint
+http://pranshu258.github.io/blog/digitalfootprint
 
 ## How to use?
 + Download your Google Data (Search and Browser) in JSON format
